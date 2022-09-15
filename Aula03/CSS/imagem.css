@@ -1,0 +1,34 @@
+.dimensao {
+    width: 500px;
+} 
+
+.josuke {
+    width: 400px;
+}
+
+/* o que for declarado com ponto da seguinte 
+forma: .declaracao é compreendido como
+uma classe no css */
+
+img {
+    border: solid 1px #000000;
+}
+
+.img2 {
+    border: dotted;
+}
+
+.img3 {
+    border: dotted 10px rgb(255, 0, 255);
+}
+
+/* o que for declarado como sendo um identificador de tag vai ser 
+aplicado em todas as ocorrências em que aparecer */
+
+#poke {
+    border: dotted 5px #004cf1
+}
+
+/* quando você declara com # então o tipo 'id' vai ser aplicado!
+Esse tipo apesar de funcionar não é tão recomendado, pois ids
+precisam ser únicos e não se repetem */
